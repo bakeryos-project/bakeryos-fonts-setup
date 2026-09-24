@@ -1,7 +1,7 @@
 # Maintainer: smtdfc <me.smtdfc@gmail.com>
 
 pkgname=bakeryos-fonts-setup
-pkgver=1.0.1
+pkgver=1.0.2
 pkgrel=1
 pkgdesc="A font setup script for BakeryOS"
 arch=('any')
