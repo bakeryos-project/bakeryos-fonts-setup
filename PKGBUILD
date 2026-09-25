@@ -1,7 +1,7 @@
 # Maintainer: smtdfc <me.smtdfc@gmail.com>
 
 pkgname=bakeryos-fonts-setup
-pkgver=1.1.0
+pkgver=1.1.1
 pkgrel=1
 pkgdesc="A font setup script for BakeryOS"
 arch=('any')
@@ -29,5 +29,5 @@ sha256sums=()
 options=(!debug !strip)
 
 package() {
-  true
+  install -Dm644 "${startdir}/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
